@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+
+li { list-style: none;}
+a {text-decoration: none;}
+body {
+    background-image: url(assets/pokebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    background-color: hsl(150, 70%, 45%);
+}
+
+#logoImg {
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header-types {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+/*poke-card*/
+.poke-items{
+    display: none;
+}
+
+.poke-items:target {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 50px;
+    
+}
+
+.poke-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid gray;
+    width: 300px;
+    height: 300px;
+padding: 30px;
+background-color: hsl(150, 70%, 45%);
+font-weight: bold;
+}
+
+.poke-card img {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+
+}
+
+/* toDoReview */
+.toDoReview {
+    display: none;
+}
+.toDoReview:target {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    padding: 10px;
+    width: 35%; 
+    text-align: center; 
+}
+
+form input:nth-child(2){
+    height: 80px;
+
+}
+form button {
+ padding: 10px;   
+ border-radius: 10%;
+ box-shadow: 5px 5px;
+} 
+
+ul {
+  background-color: aliceblue;
+}
+
+
+/*Developer-Conctact*/
+#Developer-Conctact{
+    display: none;
+}
+
+#Developer-Conctact:target {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 150px auto; /* Adjust margin to center vertically */
+    gap: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    align-items: center;
+    width: fit-content;
+background-color: aquamarine;
+}
+/*Footer */
+footer {
+    position: fixed;
+    width: 100vw;
+    bottom: 0; 
+    border: 2px solid black;
+    padding: 15px;
+    background-color: hsl(160, 100%, 95%);
+}
