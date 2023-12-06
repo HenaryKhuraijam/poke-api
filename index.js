@@ -1,9 +1,9 @@
 /* Review Card */
-const reviewCard = (pokeDescription) => {
+const reviewCard = (pokeDescription,pokeName) => {
 const li = document.createElement('li');
 
-const headLine = document.createElement('h1');
-headLine.textContent ='Hello';
+const headLine = document.createElement('h3');
+headLine.textContent = pokeName;
 
 const description = document.createElement('input');
 description.type ='text';
@@ -20,10 +20,10 @@ const submitReview = document.getElementById('submitReview');
 
 const addReviewHandler = (e) => {
 e.preventDefault();
-const ul = document.getElementById('lists-review')
+const ul = document.getElementById('lists-review');
+const pokeName = document.getElementById('pokeName').value;
 const description = document.getElementById('revDiscrp').value;
-console.log(description);
-ul.appendChild(reviewCard(description));
+ul.appendChild(reviewCard(description,pokeName));
 
 };
 

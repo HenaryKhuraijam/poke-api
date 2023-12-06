@@ -7,9 +7,7 @@
 li { list-style: none;}
 a {text-decoration: none;}
 body {
-    background-image: url(assets/pokebackground.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     
 }
 
@@ -19,7 +17,7 @@ header {
     justify-content: space-between;
     padding: 10px 50px;
     border: 1px solid gray;
-    background-color: hsl(150, 70%, 45%);
+    /* background-color: hsl(150, 70%, 45%); */
 }
 
 #logoImg {
@@ -37,6 +35,11 @@ header {
     font-weight: bold;
 }
 
+.header-types img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30%;
+}
 /*poke-card*/
 .poke-items{
     display: none;
@@ -57,11 +60,12 @@ header {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
     width: 300px;
     height: 300px;
 padding: 30px;
-background-color: hsl(150, 70%, 45%);
+border-radius: 40%;
+/* background-color: hsl(150, 70%, 45%); */
 font-weight: bold;
 }
 
@@ -132,5 +136,5 @@ footer {
     bottom: 0; 
     border: 2px solid black;
     padding: 15px;
-    background-color: hsl(160, 100%, 95%);
+    /* background-color: hsl(160, 100%, 95%); */
 }
