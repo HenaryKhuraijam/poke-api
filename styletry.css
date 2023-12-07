@@ -1,7 +1,0 @@
-body section {
-    display: none;
-}
-
-body section:target {
-display: flex;
-}
