@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [JavaScript capstone project] <a name="about-project"></a>
+# 📖 [Poke Project] <a name="about-project"></a>
 
-**[JavaScript capstone project]** is about building your own web application based on an external API
+**[Poke Project]** is about building a Poke web application based on an external API
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,7 +52,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://henarykhuraijam.github.io/kanbanBoard/)
+- [Live Demo Link](https://henarykhuraijam.github.io/poke-api/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
